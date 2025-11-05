@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的成果展示</title>
+    <!-- 引入样式文件 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入图标（可选，用于按钮/导航） -->
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header>
+        <h1>我的成果集</h1>
+        <p>专注于图像/视频相关项目展示</p>
+    </header>
+
+    <!-- 成果展示区（图像） -->
+    <section class="gallery">
+        <h2>图像成果</h2>
+        <div class="gallery-container">
+            <!-- 替换成自己的图像链接和描述 -->
+            <div class="gallery-item">
+                <img src="images/project1-img01.jpg" alt="项目1-图像1">
+                <p>项目1：风格迁移成果（t0→c0）</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/project1-img02.jpg" alt="项目1-图像2">
+                <p>项目1：时序一致优化后效果</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://raw.githubusercontent.com/你的用户名/仓库名/main/images/project2-img01.jpg" alt="项目2-图像1">
+                <p>项目2：3DGS重建新视角渲染图</p>
+            </div>
+            <!-- 可继续添加更多图像项 -->
+        </div>
+    </section>
+
+    <!-- 成果展示区（视频） -->
+    <section class="video-section">
+        <h2>视频成果</h2>
+        <div class="video-container">
+            <!-- 本地视频（适合小文件） -->
+            <div class="video-item">
+                <video controls width="100%">
+                    <source src="videos/demo01.mp4" type="video/mp4">
+                    你的浏览器不支持视频播放
+                </video>
+                <p>视频1：3DGS场景新视角漫游</p>
+            </div>
+            <!-- 嵌入B站/YouTube视频（推荐，加载快） -->
+            <div class="video-item">
+                <iframe src="https://player.bilibili.com/player.html?aid=你的视频aid&cid=你的视频cid&page=1" 
+                        scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="360"></iframe>
+                <p>视频2：风格迁移时序一致性演示</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部信息 -->
+    <footer>
+        <p>联系方式：<a href="mailto:你的邮箱@xxx.com">你的邮箱@xxx.com</a></p>
+        <p>© 2025 我的成果展示 | 基于HTML+CSS构建</p>
+    </footer>
+</body>
+</html>
